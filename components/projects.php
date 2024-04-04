@@ -13,31 +13,31 @@
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="bi bi-table"></i>
-            <h3><a href="">Loteria</a></h3>
+            <h3><a href="table.php">Loteria</a></h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="ri-bar-chart-box-line"></i>
-            <h3><a href="">Próximamente</a></h3>
+            <h3><a href="index.php">Próximamente</a></h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="ri-calendar-todo-line"></i>
-            <h3><a href="">Próximamente</a></h3>
+            <h3><a href="index.php">Próximamente</a></h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="ri-paint-brush-line"></i>
-            <h3><a href="">Próximamente</a></h3>
+            <h3><a href="index.php">Próximamente</a></h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="ri-database-2-line"></i>
-            <h3><a href="">Próximamente</a></h3>
+            <h3><a href="index.php">Próximamente</a></h3>
           </div>
         </div>
       </div>

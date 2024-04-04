@@ -7,9 +7,9 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto" href="#hero">Inicio</a></li>
-          <li><a class="nav-link scrollto" href="#about">Nosotros</a></li>
-          <li><a class="nav-link scrollto" href="#team">Equipo</a></li>
+          <li><a class="nav-link scrollto" href="index.php#hero">Inicio</a></li>
+          <li><a class="nav-link scrollto" href="index.php#about">Nosotros</a></li>
+          <li><a class="nav-link scrollto" href="index.php#team">Equipo</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
