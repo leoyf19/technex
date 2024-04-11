@@ -28,18 +28,20 @@
   <?php include_once('components/projects.php') ?>
   <!-- End Projects -->
 
+    
     <!-- ======= Main ======= -->
-    <div class="row p-5 justify-content-center align-items-center">
+    <div class="container-fluid">
+        <div class="row p-5 justify-content-center align-items-center">
         <div class="col-12 p-3 my-3 d-flex justify-content-center align-items-center">
             <h1>Loteria Technex</h1>
         </div>
-
+    
         <div class="col-md-12 p-3">
             <div class="row justify-content-center">
                 <div class="col-md-4 rounded-3 border bg-dark text-light bg-gradient p-4">
                     <div class="d-flex justify-content-between p-3">
                         <img src="assets/img/logo-2.png" alt="" width="100" height="30">
-                        <h3>#1</h3>
+                        <h3 class="fw-bold">#1</h3>
                     </div>
 
                     <div class="row p-3 justify-content-center border rounded-3">
@@ -60,23 +62,23 @@
                         <div class="col-sm-3 col-md-3 p-2 center">15</div>
                         <div class="col-sm-3 col-md-3 p-2 center">16</div>
                     </div>
-
+    
                 </div>
-
+    
                 <div class="col-md-12 d-flex justify-content-center p-5">
                     <button type="button" class="btn btn-success">JUGAR</button>
                 </div>
             </div>
         </div>
-
+    
         <div class="col-md-12">
             <div class="row p-2 justify-content-center gap-3">
                 <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
                     <div class="d-flex justify-content-between p-3">
                         <img src="assets/img/logo-2.png" alt="" width="100" height="30">
-                        <h3>#1</h3>
+                        <h3 class="fw-bold">#1</h3>
                     </div>
-
+    
                     <div class="row p-3 justify-content-center border rounded-3">
                         <div class="col-sm-3 col-md-3 p-2 center">1</div>
                         <div class="col-sm-3 col-md-3 p-2 center">2</div>
@@ -100,9 +102,9 @@
                 <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
                     <div class="d-flex justify-content-between p-3">
                         <img src="assets/img/logo-2.png" alt="" width="100" height="30">
-                        <h3>#1</h3>
+                        <h3 class="fw-bold">#1</h3>
                     </div>
-
+    
                     <div class="row p-3 justify-content-center border rounded-3">
                         <div class="col-sm-3 col-md-3 p-2 center">1</div>
                         <div class="col-sm-3 col-md-3 p-2 center">2</div>
@@ -126,9 +128,9 @@
                 <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
                     <div class="d-flex justify-content-between p-3">
                         <img src="assets/img/logo-2.png" alt="" width="100" height="30">
-                        <h3>#1</h3>
+                        <h3 class="fw-bold">#1</h3>
                     </div>
-
+    
                     <div class="row p-3 justify-content-center border rounded-3">
                         <div class="col-sm-3 col-md-3 p-2 center">1</div>
                         <div class="col-sm-3 col-md-3 p-2 center">2</div>
@@ -152,9 +154,9 @@
                 <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
                     <div class="d-flex justify-content-between p-3">
                         <img src="assets/img/logo-2.png" alt="" width="100" height="30">
-                        <h3>#1</h3>
+                        <h3 class="fw-bold">#1</h3>
                     </div>
-
+    
                     <div class="row p-3 justify-content-center border rounded-3">
                         <div class="col-sm-3 col-md-3 p-2 center">1</div>
                         <div class="col-sm-3 col-md-3 p-2 center">2</div>
@@ -179,9 +181,9 @@
                 <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
                     <div class="d-flex justify-content-between p-3">
                         <img src="assets/img/logo-2.png" alt="" width="100" height="30">
-                        <h3>#1</h3>
+                        <h3 class="fw-bold">#1</h3>
                     </div>
-
+    
                     <div class="row p-3 justify-content-center border rounded-3">
                         <div class="col-sm-3 col-md-3 p-2 center">1</div>
                         <div class="col-sm-3 col-md-3 p-2 center">2</div>
@@ -201,13 +203,13 @@
                         <div class="col-sm-3 col-md-3 p-2 center">16</div>
                     </div>
                 </div>
-
+    
                 <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
                     <div class="d-flex justify-content-between p-3">
                         <img src="assets/img/logo-2.png" alt="" width="100" height="30">
-                        <h3>#1</h3>
+                        <h3 class="fw-bold">#1</h3>
                     </div>
-
+    
                     <div class="row p-3 justify-content-center border rounded-3">
                         <div class="col-sm-3 col-md-3 p-2 center">1</div>
                         <div class="col-sm-3 col-md-3 p-2 center">2</div>
@@ -232,9 +234,9 @@
                 <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
                     <div class="d-flex justify-content-between p-3">
                         <img src="assets/img/logo-2.png" alt="" width="100" height="30">
-                        <h3>#1</h3>
+                        <h3 class="fw-bold">#1</h3>
                     </div>
-
+    
                     <div class="row p-3 justify-content-center border rounded-3">
                         <div class="col-sm-3 col-md-3 p-2 center">1</div>
                         <div class="col-sm-3 col-md-3 p-2 center">2</div>
@@ -258,9 +260,9 @@
                 <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
                     <div class="d-flex justify-content-between p-3">
                         <img src="assets/img/logo-2.png" alt="" width="100" height="30">
-                        <h3>#1</h3>
+                        <h3 class="fw-bold">#1</h3>
                     </div>
-
+    
                     <div class="row p-3 justify-content-center border rounded-3">
                         <div class="col-sm-3 col-md-3 p-2 center">1</div>
                         <div class="col-sm-3 col-md-3 p-2 center">2</div>
@@ -284,9 +286,9 @@
                 <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
                     <div class="d-flex justify-content-between p-3">
                         <img src="assets/img/logo-2.png" alt="" width="100" height="30">
-                        <h3>#1</h3>
+                        <h3 class="fw-bold">#1</h3>
                     </div>
-
+    
                     <div class="row p-3 justify-content-center border rounded-3">
                         <div class="col-sm-3 col-md-3 p-2 center">1</div>
                         <div class="col-sm-3 col-md-3 p-2 center">2</div>
@@ -310,9 +312,9 @@
                 <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
                     <div class="d-flex justify-content-between p-3">
                         <img src="assets/img/logo-2.png" alt="" width="100" height="30">
-                        <h3>#1</h3>
+                        <h3 class="fw-bold">#1</h3>
                     </div>
-
+    
                     <div class="row p-3 justify-content-center border rounded-3">
                         <div class="col-sm-3 col-md-3 p-2 center">1</div>
                         <div class="col-sm-3 col-md-3 p-2 center">2</div>
@@ -336,9 +338,9 @@
                 <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
                     <div class="d-flex justify-content-between p-3">
                         <img src="assets/img/logo-2.png" alt="" width="100" height="30">
-                        <h3>#1</h3>
+                        <h3 class="fw-bold">#1</h3>
                     </div>
-
+    
                     <div class="row p-3 justify-content-center border rounded-3">
                         <div class="col-sm-3 col-md-3 p-2 center">1</div>
                         <div class="col-sm-3 col-md-3 p-2 center">2</div>
@@ -358,13 +360,13 @@
                         <div class="col-sm-3 col-md-3 p-2 center">16</div>
                     </div>
                 </div>
-
+    
                 <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
                     <div class="d-flex justify-content-between p-3">
                         <img src="assets/img/logo-2.png" alt="" width="100" height="30">
-                        <h3>#1</h3>
+                        <h3 class="fw-bold">#1</h3>
                     </div>
-
+    
                     <div class="row p-3 justify-content-center border rounded-3">
                         <div class="col-sm-3 col-md-3 p-2 center">1</div>
                         <div class="col-sm-3 col-md-3 p-2 center">2</div>
@@ -386,9 +388,10 @@
                 </div>
             </div>
         </div>
-
+    
+        </div>
     </div>
-  <!-- End #main -->
+    <!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <?php include_once('components/footer.php') ?>
