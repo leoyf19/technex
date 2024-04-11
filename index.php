@@ -35,10 +35,6 @@
     <?php include_once('components/about.php') ?>
     <!-- End Team Section -->
 
-    <!-- ======= Team Section ======= -->
-    <?php include_once('components/team.php') ?>
-    <!-- End Team Section -->
-
   </main>
   <!-- End #main -->
 
