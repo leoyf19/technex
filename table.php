@@ -28,22 +28,366 @@
   <?php include_once('components/projects.php') ?>
   <!-- End Projects -->
 
-  <!-- ======= Main ======= -->
-  <main id="main">
+    <!-- ======= Main ======= -->
+    <div class="row p-5 justify-content-center align-items-center">
+        <div class="col-12 p-3 my-3 d-flex justify-content-center align-items-center">
+            <h1>Loteria Technex</h1>
+        </div>
 
-    <div class="d-flex justify-content-center align-items-center p-5">
-        <div class="card mb-3">
-            <img src="assets/img/parcial.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Parcial</h5>
-                <p class="card-text">Para ver el resultado presionar F12, ir a consola y presionar ejecutar algoritmo</p>
-                <button id="launch" class="btn btn-primary">Ejecutar algoritmo</button>
-                <a href="assets/pdf/diagrama-1.pdf" class="btn btn-primary">Clic para ver el diagrama</a>
+        <div class="col-md-12 p-3">
+            <div class="row justify-content-center">
+                <div class="col-md-4 rounded-3 border bg-dark text-light bg-gradient p-4">
+                    <div class="d-flex justify-content-between p-3">
+                        <img src="assets/img/logo-2.png" alt="" width="100" height="30">
+                        <h3>#1</h3>
+                    </div>
+
+                    <div class="row p-3 justify-content-center border rounded-3">
+                        <div class="col-sm-3 col-md-3 p-2 center text-danger">1</div>
+                        <div class="col-sm-3 col-md-3 p-2 center text-danger">2</div>
+                        <div class="col-sm-3 col-md-3 p-2 center text-danger">3</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">4</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">5</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">6</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">7</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">8</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">9</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">10</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">11</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">12</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">13</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">14</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">15</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">16</div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center p-5">
+                    <button type="button" class="btn btn-success">JUGAR</button>
+                </div>
             </div>
         </div>
-    </div>
 
-  </main>
+        <div class="col-md-12">
+            <div class="row p-2 justify-content-center gap-3">
+                <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
+                    <div class="d-flex justify-content-between p-3">
+                        <img src="assets/img/logo-2.png" alt="" width="100" height="30">
+                        <h3>#1</h3>
+                    </div>
+
+                    <div class="row p-3 justify-content-center border rounded-3">
+                        <div class="col-sm-3 col-md-3 p-2 center">1</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">2</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">3</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">4</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">5</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">6</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">7</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">8</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">9</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">10</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">11</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">12</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">13</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">14</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">15</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">16</div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
+                    <div class="d-flex justify-content-between p-3">
+                        <img src="assets/img/logo-2.png" alt="" width="100" height="30">
+                        <h3>#1</h3>
+                    </div>
+
+                    <div class="row p-3 justify-content-center border rounded-3">
+                        <div class="col-sm-3 col-md-3 p-2 center">1</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">2</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">3</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">4</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">5</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">6</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">7</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">8</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">9</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">10</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">11</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">12</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">13</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">14</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">15</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">16</div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
+                    <div class="d-flex justify-content-between p-3">
+                        <img src="assets/img/logo-2.png" alt="" width="100" height="30">
+                        <h3>#1</h3>
+                    </div>
+
+                    <div class="row p-3 justify-content-center border rounded-3">
+                        <div class="col-sm-3 col-md-3 p-2 center">1</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">2</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">3</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">4</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">5</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">6</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">7</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">8</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">9</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">10</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">11</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">12</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">13</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">14</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">15</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">16</div>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
+                    <div class="d-flex justify-content-between p-3">
+                        <img src="assets/img/logo-2.png" alt="" width="100" height="30">
+                        <h3>#1</h3>
+                    </div>
+
+                    <div class="row p-3 justify-content-center border rounded-3">
+                        <div class="col-sm-3 col-md-3 p-2 center">1</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">2</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">3</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">4</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">5</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">6</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">7</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">8</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">9</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">10</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">11</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">12</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">13</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">14</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">15</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">16</div>
+                    </div>
+                    
+                </div>
+    
+                <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
+                    <div class="d-flex justify-content-between p-3">
+                        <img src="assets/img/logo-2.png" alt="" width="100" height="30">
+                        <h3>#1</h3>
+                    </div>
+
+                    <div class="row p-3 justify-content-center border rounded-3">
+                        <div class="col-sm-3 col-md-3 p-2 center">1</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">2</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">3</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">4</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">5</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">6</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">7</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">8</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">9</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">10</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">11</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">12</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">13</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">14</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">15</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">16</div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
+                    <div class="d-flex justify-content-between p-3">
+                        <img src="assets/img/logo-2.png" alt="" width="100" height="30">
+                        <h3>#1</h3>
+                    </div>
+
+                    <div class="row p-3 justify-content-center border rounded-3">
+                        <div class="col-sm-3 col-md-3 p-2 center">1</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">2</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">3</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">4</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">5</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">6</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">7</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">8</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">9</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">10</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">11</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">12</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">13</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">14</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">15</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">16</div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
+                    <div class="d-flex justify-content-between p-3">
+                        <img src="assets/img/logo-2.png" alt="" width="100" height="30">
+                        <h3>#1</h3>
+                    </div>
+
+                    <div class="row p-3 justify-content-center border rounded-3">
+                        <div class="col-sm-3 col-md-3 p-2 center">1</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">2</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">3</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">4</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">5</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">6</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">7</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">8</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">9</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">10</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">11</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">12</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">13</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">14</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">15</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">16</div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
+                    <div class="d-flex justify-content-between p-3">
+                        <img src="assets/img/logo-2.png" alt="" width="100" height="30">
+                        <h3>#1</h3>
+                    </div>
+
+                    <div class="row p-3 justify-content-center border rounded-3">
+                        <div class="col-sm-3 col-md-3 p-2 center">1</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">2</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">3</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">4</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">5</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">6</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">7</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">8</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">9</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">10</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">11</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">12</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">13</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">14</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">15</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">16</div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
+                    <div class="d-flex justify-content-between p-3">
+                        <img src="assets/img/logo-2.png" alt="" width="100" height="30">
+                        <h3>#1</h3>
+                    </div>
+
+                    <div class="row p-3 justify-content-center border rounded-3">
+                        <div class="col-sm-3 col-md-3 p-2 center">1</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">2</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">3</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">4</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">5</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">6</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">7</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">8</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">9</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">10</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">11</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">12</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">13</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">14</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">15</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">16</div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
+                    <div class="d-flex justify-content-between p-3">
+                        <img src="assets/img/logo-2.png" alt="" width="100" height="30">
+                        <h3>#1</h3>
+                    </div>
+
+                    <div class="row p-3 justify-content-center border rounded-3">
+                        <div class="col-sm-3 col-md-3 p-2 center">1</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">2</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">3</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">4</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">5</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">6</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">7</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">8</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">9</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">10</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">11</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">12</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">13</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">14</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">15</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">16</div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
+                    <div class="d-flex justify-content-between p-3">
+                        <img src="assets/img/logo-2.png" alt="" width="100" height="30">
+                        <h3>#1</h3>
+                    </div>
+
+                    <div class="row p-3 justify-content-center border rounded-3">
+                        <div class="col-sm-3 col-md-3 p-2 center">1</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">2</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">3</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">4</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">5</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">6</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">7</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">8</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">9</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">10</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">11</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">12</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">13</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">14</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">15</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">16</div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 ticket rounded-3 border bg-dark text-light bg-gradient p-4">
+                    <div class="d-flex justify-content-between p-3">
+                        <img src="assets/img/logo-2.png" alt="" width="100" height="30">
+                        <h3>#1</h3>
+                    </div>
+
+                    <div class="row p-3 justify-content-center border rounded-3">
+                        <div class="col-sm-3 col-md-3 p-2 center">1</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">2</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">3</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">4</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">5</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">6</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">7</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">8</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">9</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">10</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">11</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">12</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">13</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">14</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">15</div>
+                        <div class="col-sm-3 col-md-3 p-2 center">16</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
   <!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -119,7 +463,6 @@ function separarUniversoEnArreglos4(universo){
     let universoDivido = []
     let arregloParcial = [];
     for (var i = 0; i < universo.length; i++) {
-        // universoDivido.push(universo.slice(i, i + maximoEnArreglo));
         arregloParcial.push(universo[i]);
 
         if (arregloParcial.length == 4) {
@@ -157,8 +500,6 @@ function generateTables() {
 
       boletos.push(nuevoBoleto);
   }
-
-  console.log(boletos);
 }
 
 // Selecciona el botón por su ID

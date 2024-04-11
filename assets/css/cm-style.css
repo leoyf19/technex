@@ -1,0 +1,24 @@
+.cm-rounded {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-color {
+    background-color: rgb(110, 184, 114);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.ticket {
+    transition: 0.5s;
+    cursor: pointer;
+    user-select: none;
+}
+
+.ticket:hover {
+    transform: scale(1.05)
+}
