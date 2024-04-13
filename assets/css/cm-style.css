@@ -22,3 +22,12 @@
 .ticket:hover {
     transform: scale(1.05)
 }
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.table-selected {
+    border: 5px solid green !important;
+    padding: 20px !important; 
+}
