@@ -240,7 +240,7 @@ $(".tableForPlay").click(function() {
 
 
 
-    let tableSelected = `<div class="row justify-content-center" id="${indexGlobal}">
+    let tableSelected = `<div class="row justify-content-center main-table" id="${indexGlobal}">
                             <div class="col-md-4 rounded-3 border bg-dark text-light bg-gradient p-4">
                                 <div class="d-flex justify-content-between p-3">
                                     <img src="assets/img/logo-2.png" alt="" width="100" height="30">

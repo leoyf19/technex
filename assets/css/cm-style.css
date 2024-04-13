@@ -31,3 +31,7 @@
     border: 5px solid green !important;
     padding: 20px !important; 
 }
+
+.main-table {
+    user-select: none;
+}
