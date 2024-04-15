@@ -324,7 +324,7 @@ $("#play").click(function(){
     Swal.fire({
         title: 'Bienvenido!',
         text: 'Se va iniciar la lotería',
-        icon: 'success',
+        icon: 'info',
         confirmButtonText: 'Iniciar'
     }).then((result) => {
         play();
