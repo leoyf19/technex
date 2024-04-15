@@ -351,7 +351,8 @@ $("#tableSelected").on("click", ".number", function(){
             text: `Has ganado en ${128 - universeAux.length} intentos`,
             icon: 'success',
             confirmButtonText: 'Terminar'
-        })
+        });
+        clearInterval(interval)
         $("#screenNumber").empty();
         $("#screenNumber").append(`<h2>Has ganado en ${128 - universeAux.length} intentos</h2>`)
     }
